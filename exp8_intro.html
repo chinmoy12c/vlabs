@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel="stylesheet" href="./css/nav_style.css" type="text/css">
+    <link rel="stylesheet" href="./css/page_design.css" type="text/css">
+    <script src="./js/navbar.js"></script>
+    <script src="./js/utils.js"></script>
+</head>
+<body>
+
+    <div id="navbarDiv"></div>
+
+    <h2 class="siteheader">Control Systems Lab</h2>
+
+    <div class="card contentHolder">
+        <h3>Objective</h3>
+        <p>
+            To study the synchro-transmitter and receiver and obtain output v/s input
+            characteristics.
+        </p>
+    </div>
+
+    <div class="card contentHolder">
+        <h3>Apparatus Required</h3>
+        <p>
+            1. Experimental kit with pair of transmitter-receiver synchro motor <br>
+            2. CRO
+        </p>
+    </div>
+
+    <div class="card contentHolder">
+        <h3>Theory</h3>
+        <p>
+            Synchro error detector: Synchro transmitter and synchro control transmitter arrangement for
+            converting angular position difference into a proportional a.c.
+            The winding on the rotor of a synchro transmitter is connected to an a.c. supply voltage
+            and this rotor is held fixed at a desired angular position any r The stator winding of synchro
+            transmitter and also that the synchro control transformer is wound at 120 in space on the stator.
+            The two stator winding are connected together.The location of transmitter and control transformer
+            can be away from each other.The rotor of synchro transmitter is salient pole type and that of
+            synchro control transformer is cylindrical type.
+            The rotor of control transformer is coupled to the output shaft of the control system .If the
+            position of the output shaft is indicated as  this results in as angular error e = (r-0) between the
+            position of the input reference and the output shafts.
+            The process of conversion of the angular difference in to a proportional voltage is
+            explained below,
+            A single-phase arc voltage
+            ei (t) = Em sin (2t)
+            Is applied to the rotor winding of the synchro transmitter, then if r = 0 the corresponding voltage
+            induce by transformer action across the stator winding e1n is given by
+            e1n = KEmsin(2t)
+            Where K is proportionality constant
+            As the stator winding 2n and 3 n are 240  and 120  a part (angle measured as positive in anticlockwise direction) w.r.t. The winding 1n the voltage induce across them are,
+            e2n = K Em sin (2t)cos(240)
+            =-0.5 K Em sin(2t)
+            e3n= K Em sin (2t)cos(120)
+            =-0.5 K Em sin (2t)
+            Now if the rotor of the synchro transmitter shifts in anticlockwise direction through an angle r
+            the voltage in the stator coil are,
+            e1n = K Em sin (2t)cosr
+            e2n = K Em sin (2t)cos(240-r)
+            e3n = K Em sin (2t)cos(120-r)
+            Equation reveal that the magnitudes of the voltage e1n, e2n, and e3nvary sinusoidal w.r.t. r.
+            KIET/EN/CONTROLSYSTEM/08
+            SIGNATURE OF HOD SIGNATURE OF LAB INCHARGE
+            The three-voltage e1n , e2n, and e3n are connected consecutively to three stator winding of the
+            control transformer and produce a resultant flux in the air gap of the rotor winding of the control
+            transformer. The magnitude of this induce voltage depend on the difference (r-0) If the
+            difference (r-0) is zero, the induce voltage across the rotor winding terminal of the control
+            transformer is zero, maximum for (r-0) =90 and again zero when (r-0)=180. After 180 the
+            phase of the induce voltage reverses.
+            The magnitude being again maximum with a reversed phase and finally zero for (r-0) =360.
+            The variation of the amplitude of induce voltage across the rotor of control transformer w.r.t. (r-
+            0).
+            Therefore, the magnitude of the output induces voltage e developed across rotor of control
+            transformer is given by the following relation:
+            e =Ks sin(r-0)
+            Where Ks is a constant of proportionality
+            It is to be noted that the frequency of the voltage e is the same as that of supply and the magnitude
+            is proportional to the sin(r-0).
+            In control system the angular error i.e.(r-0)is usually small and since (r-0) is expressed in
+            radian, therefore,
+            Sin (r-0) (r-0)
+            Hence, e=Ks(r-0)
+            And (r-0) is expressed in v/rad.
+            The above equation indicates that angular error is converted into a proportional voltage. Laplace
+            transform of the above equation is,
+            (Es)=Kse(s)
+            The block diagram representation of synchro error detector is shown in fig.1, Ks are known as the
+            sensitivity or the gain of synchro-error detector.
+            The variation of the magnitude of the output voltage e of synchro-error detector is a function of
+            time.
+            It is to be noted that the phase of e (the output voltage) reverses at the points a and b as the error
+            detectore(t) Changes its sign.
+        </p>
+    </div>
+
+    
+</body>

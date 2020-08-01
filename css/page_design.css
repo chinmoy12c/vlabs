@@ -1,0 +1,30 @@
+.siteheader {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.card {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.contentHolder h3{
+    font-family: initial;
+    margin: 20px;
+}
+
+.contentHolder p{
+    font-family: revert;
+    margin: 20px;
+}
