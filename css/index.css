@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    background-image: url("../img/fluid_back.jpg");
+}
+
+.main-div {
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+}
+
+img {
+    width: 40%;
+}
+
+.experimentLink {
+    margin: 10%;
+    border-radius: 100%;
+}
