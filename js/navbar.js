@@ -6,9 +6,9 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-
-mybutton = document.getElementById("myBtn");
-
+window.onload = () => {
+  mybutton = document.getElementById("myBtn");
+}
 
 window.onscroll = function() {scrollFunction()};
 
