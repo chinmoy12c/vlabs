@@ -1,5 +1,5 @@
 window.onload = (e) => {
-    document.getElementById("navbarDiv").innerHTML = loadPage("template.html");
+    document.getElementById("sidenavDiv").innerHTML = loadPage("template.html");
 }
 
 loadPage = (href) => {
